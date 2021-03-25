@@ -1,6 +1,7 @@
 package com.home;
 
 import com.one.OneClass;
+import com.three.ThreeClass;
 import com.two.TwoClass;
 
 public class HomeBase {
@@ -13,6 +14,10 @@ public class HomeBase {
 
 		TwoClass twoClass = new TwoClass();
 		twoClass.getOutput();
+
+		ThreeClass threeClass = new ThreeClass();
+		threeClass.getOutput();
+
 	}
 
 }
